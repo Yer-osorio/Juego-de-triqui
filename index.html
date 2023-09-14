@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>TRIQUI</title>
+    <link rel="stylesheet" href="triqui.css">
+  </head>
+  <body>
+    <section id = "jugadores">
+      <div class="jugador 1">jugador X</div>
+      <h2 id="titulo">TRIQUI</h2>
+      <div class="jugador 2">jugador O</div>
+    </section>
+    <section id="contadores">
+    <p>Jugador X: <span id="contadorX">0</span> puntos</p>
+    <p>Jugador O: <span id="contadorO">0</span> puntos</p>
+    </section>
+    <h2 id="autores">Realizado por el dúo dinámico</h2>
+    <h3 id="autores1">Yerson & Miguel</h3>
+    <section id = "tablero">
+    <!-- creamos la secccion tablero en mitad de la pantalla -->
+        <div class = "linea vertical linea1"></div>
+        <div class = "linea vertical linea2"></div>
+
+        <div class = "linea horizontal linea3"></div>
+        <div class = "linea horizontal linea4"></div>
+
+        <div id = "cajas" class="cajas">
+          <div class="row">
+            <div class="cuadro 1"></div>
+            <div class="cuadro 2"></div>
+            <div class="cuadro 3"></div>
+          </div>
+          <div class="row">
+            <div class="cuadro 4"></div>
+            <div class="cuadro 5"></div>
+            <div class="cuadro 6"></div>
+          </div>
+          <div class="row">
+            <div class="cuadro 7"></div>
+            <div class="cuadro 8"></div>
+            <div class="cuadro 9"></div>
+          </div>
+        </div>
+      </section>
+
+
+
+      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src = "triqui.js">  </script>
+  </body>
+</html>

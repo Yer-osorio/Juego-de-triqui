@@ -1,0 +1,124 @@
+body{
+  background: black;
+  color:white;
+}
+
+#titulo{
+  font-size: 300%;
+}
+
+#autores{
+  margin-top: 275px;
+  margin-right: 30px;
+  display: flex;
+  justify-content: end;
+  margin-bottom: 5px;
+  margin-left: 100px;
+  font-size: 25px;
+}
+
+#autores1{
+  margin-top: 10px;
+  margin-right: 30px;
+  display: flex;
+  justify-content: end;
+  margin-bottom: 5px;
+  margin-left: 100px;
+  font-size: 15px;
+}
+
+#tablero{
+  width: 400px;
+  height: 400px;
+  top: 50%;
+  left: 50%;
+  margin-left: -200px;
+  margin-top: -130px;
+  position: absolute;
+}
+
+.linea{
+  border-radius: 15px;
+  position: absolute;
+  display: inline-block;
+}
+
+.vertical{
+  border-left: 20px solid white;
+  height:100%;
+}
+
+.linea1{
+  left:33%;
+  margin-left: -10px;
+}
+
+.linea2{
+  left:66%;
+  margin-left: -2px;
+}
+
+.horizontal{
+  border-top: 20px solid white;
+  width: 100%;
+}
+
+.linea3{
+  top:33%;
+  margin-top: -10px;
+}
+
+.linea4{
+  top:66%;
+  margin-top: -2px;
+}
+
+ .row{
+   display: inline-flex;
+   flex-direction: row;
+ }
+
+ .cuadro{
+   justify-content: center;
+   align-items: center;
+   font-size: 140px;
+   width: 123px;
+   height: 123px;
+   margin-right: 16px;
+   margin-bottom: 16px;
+   display: flex;
+ }
+
+#jugadores{
+  margin-top: 30px;
+  position: relative;
+  bottom: 20px;
+  display:inline-flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#contadores{
+  margin-top: 30px;
+  position: relative;
+  bottom: 20px;
+  display:inline-flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 20px;
+}
+
+.jugador{
+  border: 5px solid white;
+  border-radius: 10%;
+  margin-left: 6%;
+  margin-right: 6%;
+  font-size: 200%;
+  padding: 2px 10px 2px 10px;
+}
+
+.verde{
+  background: green;
+}
